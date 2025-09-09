@@ -19,6 +19,7 @@ Demonstrates real-time safe concurrency patterns.
 
 Include the LockFreeQueue.h file in your project:
 
+```cpp
 #include "LockFreeQueue.h"
 #include <iostream>
 #include <thread>
@@ -44,3 +45,4 @@ int main() {
     producer.join();
     consumer.join();
 }
+```
